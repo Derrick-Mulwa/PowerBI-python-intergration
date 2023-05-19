@@ -3,9 +3,8 @@
 The Power BI Visualization Program is a Python script that utilizes the Power BI Client library (powerbiclient) to authenticate a user and create a Power BI visualization from a CSV file. It provides an interactive and seamless way to connect to Power BI and generate visual representations of data.
 
 ## Features
-*Authentication: The program supports two authentication methods: Device Code Login Authentication and Interactive Login Authentication. Device Code Login Authentication is used for the initial login process, where the user needs to copy a code and paste it into the authentication window. Interactive Login Authentication allows for easier subsequent logins by utilizing the credentials saved in the browser.
-
-*Data Import: The program reads data from a CSV file and converts it into a pandas DataFrame. It assumes that the CSV file is located in the same directory as the script or notebook.
+* Authentication: The program supports two authentication methods: Device Code Login Authentication and Interactive Login Authentication. Device Code Login Authentication is used for the initial login process, where the user needs to copy a code and paste it into the authentication window. Interactive Login Authentication allows for easier subsequent logins by utilizing the credentials saved in the browser.
+* Data Import: The program reads data from a CSV file and converts it into a pandas DataFrame. It assumes that the CSV file is located in the same directory as the script or notebook.
 
 *Visualization Creation: Using the QuickVisualize class from the powerbiclient library, the program creates a Power BI visualization. It takes the dataset configuration obtained from the DataFrame and the authentication object as parameters.
 
