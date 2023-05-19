@@ -21,8 +21,8 @@ The Power BI Visualization Program is a Python script that utilizes the Power BI
 2. Save the CSV file that contains the data for the Power BI visualization in the same directory as the script or notebook.
 3. Import the necessary modules from the powerbiclient library, as well as pandas.
 4. Set up the authentication method: 
-  1. Use DeviceCodeLoginAuthentication() for the initial authentication process. Copy the code displayed and paste it into the authentication window that appears when prompted.
-  2. Use InteractiveLoginAuthentication() for subsequent logins, which utilize the credentials saved in the browser.
+   1.  Use DeviceCodeLoginAuthentication() for the initial authentication process. Copy the code displayed and paste it into the authentication window that appears when prompted.
+   2. Use InteractiveLoginAuthentication() for subsequent logins, which utilize the credentials saved in the browser.
   
 5. Read the CSV file into a pandas DataFrame using pd.read_csv()
 6. Create the visualization using QuickVisualize and pass the dataset configuration obtained from the DataFrame and the authentication object as parameters.
@@ -31,7 +31,3 @@ The Power BI Visualization Program is a Python script that utilizes the Power BI
 
 ## Support and Contributions
 For any questions, issues, or suggestions, please feel free to open an issue on the program's GitHub repository. Contributions are welcome!
-
-
-
-
